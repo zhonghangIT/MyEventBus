@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uniquedu.myeventbus.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动线程" />
+
+    <Button
+        android:id="@+id/button_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动后台服务" />
+
+    <Button
+        android:id="@+id/button_post_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="向服务发送消息" />
+</LinearLayout>
